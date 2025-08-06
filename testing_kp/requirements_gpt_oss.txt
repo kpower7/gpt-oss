@@ -1,0 +1,22 @@
+# GPT OSS Weather Demo Requirements
+# Core dependencies for GPT OSS with HuggingFace Transformers
+
+# Model and inference
+transformers>=4.40.0
+torch>=2.0.0
+accelerate>=0.20.0
+
+# Harmony format for tool calling
+openai-harmony
+
+# Weather API and utilities
+requests>=2.25.0
+python-dotenv>=0.19.0
+pytz>=2021.1
+
+# Optional: For better performance
+# flash-attn>=2.0.0  # Uncomment if you have compatible GPU
+# bitsandbytes>=0.41.0  # For quantization if needed
+
+# Development and testing
+pytest>=6.0.0
