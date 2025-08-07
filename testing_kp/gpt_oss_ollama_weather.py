@@ -481,11 +481,11 @@ def main():
     # Test queries demonstrating various capabilities
     test_queries = [
         "What's the weather like in Tokyo right now?",
-        "What time is it in London?",
-        "I'm planning a trip to Paris next week. What's the weather forecast?",
-        "Should I wear a jacket in New York today?",
-        "What's the time difference between San Francisco and Sydney?",
-        "Is it raining in Seattle?"
+        # "What time is it in London?",
+        # "I'm planning a trip to Paris next week. What's the weather forecast?",
+        # "Should I wear a jacket in New York today?",
+        # "What's the time difference between San Francisco and Sydney?",
+        # "Is it raining in Seattle?"
     ]
     
     print("\n🤖 Running test queries...\n")
